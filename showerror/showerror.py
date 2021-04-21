@@ -1,5 +1,4 @@
 import scipy.io as sio
-import numpy as np
 import tkinter
 from PIL import Image,ImageTk
 
@@ -14,10 +13,10 @@ orgheight = 28
 countcol=23
 
 t=tkinter.Tk();
-t.title('My first python gui')
+t.title('Error Show')
 t.geometry('1020x720')
 
-Error=sio.loadmat('..\\io\\Error.mat')
+Error=sio.loadmat('..\\IO\\Error.mat')
 ErrorIndex=Error['Error']
 TestData=sio.loadmat('..\\IO\\MNISTData.mat')
 Datamat=TestData['Data_test_in']
@@ -101,3 +100,20 @@ for lab in Lab:
 
 
 t.mainloop()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
