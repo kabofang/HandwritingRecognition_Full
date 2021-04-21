@@ -1,2 +1,1 @@
 # HandwritingRecognition_Full
-server op
