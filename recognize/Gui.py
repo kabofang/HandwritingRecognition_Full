@@ -132,7 +132,7 @@ global lab
 if __name__ == '__main__':
     root = Tk()
 
-    root.title("My tools")
+    root.title("Headwriting recognition")
     root.geometry('600x200+400+400')  # 位置设置
     root.wm_resizable(False, False)  # 不允许修改长宽
 
