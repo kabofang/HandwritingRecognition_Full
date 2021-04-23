@@ -1,0 +1,9 @@
+function ret=Pooling(S)
+Pooling_idx=2;
+if ndims(S)==3
+     ret=(S(1:2:end,1:2:end,:) ...
+          +S(1:2:end,2:2:end,:) ...
+          +S(2:2:end,1:2:end,:) ...
+          +S(2:2:end,2:2:end,:))/(Pooling_idx*Pooling_idx);
+end
+end

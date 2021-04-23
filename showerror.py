@@ -16,9 +16,9 @@ t=tkinter.Tk();
 t.title('Error Show')
 t.geometry('1020x720')
 
-Error=sio.loadmat('..\\IO\\Error.mat')
+Error=sio.loadmat('.\\IO\\Error.mat')
 ErrorIndex=Error['Error']
-TestData=sio.loadmat('..\\IO\\MNISTData.mat')
+TestData=sio.loadmat('.\\IO\\MNISTData.mat')
 Datamat=TestData['Data_test_in']
 Outmat=TestData['Data_test_out']
 

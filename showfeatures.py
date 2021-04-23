@@ -12,7 +12,7 @@ t=tkinter.Tk();
 t.title('Feature Show')
 t.geometry('1020x640')
 
-Featuresmat=sio.loadmat('..\IO\Feature_6.mat')
+Featuresmat=sio.loadmat('.\\IO\\Feature_6.mat')
 Origin=Featuresmat['Origin']
 Features1=Featuresmat['ConV1_feature']
 Features2=Featuresmat['ConV2_feature']
